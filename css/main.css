@@ -291,5 +291,41 @@ footer h5 {
 }
 
 /*============================================
-	Contact Page Specific Styles
+	Signup Specific Styles
 =============================================*/
+.signup-page .element {
+	background-color: rgba(41,55,106,.8);
+	padding: 1em 2em;
+	margin-bottom: 12em;
+}
+
+
+.signup-page .element h2 {
+	color: #929aba;
+}
+
+.signup-page .element form {
+	margin-bottom: .5em;
+}
+
+.signup-page .element form label {
+	color: #929aba;
+	margin-bottom: 1.8em;
+}
+
+.signup-page .element form label input {
+	background-color: #4e5f9f;
+	padding: .4em;
+	border: none;
+	color: #fff;
+}
+
+.signup-page .element p {
+	margin: 0;
+}
+
+
+.signup-page .element p a {
+	color: #fff;
+	text-decoration: none;
+}

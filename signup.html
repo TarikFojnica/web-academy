@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Programming School</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/kube.css" />
+     <link rel="stylesheet" href="css/main.css" />
+
+    <script src="http:/cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <script src="js/kube.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="main">
+    	<header>
+            <div class="units-container">
+                <div class="units-row">
+                    <div class="unit-30 logo">
+                        <a href="index.html"><img src="images/logo.png"></a>
+                    </div>
+
+                    <div class="unit-40">
+                         <div class="nav-container">
+                            <nav class="navbar">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="unit-30 nav-container">
+                        <nav class="navbar navbar-right">
+                           <ul>
+                               
+                                <li class="focus"><a data-tools="dropdown" data-target="#login-menu">Login</a>
+                                    <div id="login-menu">
+                                        <div class="login-menu-element">
+                                            <form method="post" action="" class="forms">
+
+                                                <label>
+                                                    Email <span class="req"></span>
+                                                    <input type="email" name="user-email" class="width-100"  />
+                                                </label>
+
+                                                <label>
+                                                    Password <span class="req"></span>
+                                                    <input type="password" name="user-passowrd" class="width-100"  />
+                                                </label>
+
+                                                 <input type="submit" class="btn btn-blue" value="Login" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="focus"><a href="signup.html">Start Learning</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    	<div class="signup-page">
+            <div class="page-content">
+                <div class="units-container">
+                    <div class="units-row">
+                        <div class="unit-60 unit-push-20">
+                           <div class="element">
+                                <h2>Sign Up For Free</h2>
+                                <form method="post" action="" class="forms">
+                                     <label>
+                                        Your name <span class="req"></span>
+                                        <input type="text" name="user-name" class="width-100"  />
+                                    </label>
+
+                                    <label>
+                                        Email <span class="req"></span>
+                                        <input type="email" name="user-email" class="width-100"  />
+                                    </label>
+
+                                    <label>
+                                        Password <span class="req"></span>
+                                        <input type="password" name="user-passowrd" class="width-100"  />
+                                    </label>
+
+                                    <label>
+                                        Confirm the password <span class="req"></span>
+                                        <input type="password" name="user-passowrd" class="width-100"  />
+                                    </label>
+
+                                     <input type="submit" class="btn" value="Register" />
+                                </form>
+                                <p>Already a member? <a href="#">Login</a></p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--page content-->
+    </div><!--main-->
+
+    <footer>
+    	<div class="units-container">
+    		<div class="units-row">
+    			<h5>Designed and Developed by Tarik Fojnica. The site is under development</h5>
+    		</div>
+    	</div>
+    </footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
