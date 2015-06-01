@@ -1,0 +1,257 @@
+/*============================================
+	General
+=============================================*/
+
+.units-container {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.units-row {
+	margin-bottom: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*============================================
+	Main
+=============================================*/
+
+.main {
+	
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 1px solid #47567f;
+
+background-color: #303E73;
+}
+
+.main .main-content {
+	margin: 4em 0;
+}
+
+/*============================================
+	Header
+=============================================*/
+header {
+	background-color: rgba(0,0,0,.2);
+	margin-bottom: 4em;
+}
+
+header .logo img {
+	width: 15em;
+	margin-top: .2em;
+}
+
+header nav.navbar {
+	margin: 0;
+}
+
+header nav.navbar ul li {
+	margin: 0 !important;
+}
+
+header nav.navbar ul li a {
+	padding: 1.1em .7em;
+	color: #818DAC;
+	border:1px solid rgba(255,255,255,0);
+}
+
+header nav.navbar ul li a:hover {
+	background-color: rgba(0,0,0,.2);
+	text-decoration: none;
+	color: #fff;
+}
+
+
+header nav.navbar ul li.focus a {
+	color: #fff;
+}
+
+/*============================================
+	Main Content
+=============================================*/
+.main-content {
+	text-align: center;
+	padding: 2em 0 2em 0;
+	border-bottom:1px solid #47567f;
+}
+
+.main-content h2 {
+	font-size: 2.1em;
+	color: #fff;
+	line-height: 1.5em;
+}
+
+.main-content p {
+	color: #b9c5f3;
+}
+
+.main-content .btn {
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	border:1px solid #818DAC;
+	padding: .8em 1.4em;
+	font-weight: 600;
+}
+
+.main-content .btn:hover {
+	background-color: #fff;
+	color: #818DAC;
+}
+
+/*============================================
+	Main Elements
+=============================================*/
+.main-elements {
+	margin-bottom: 4em;
+}
+
+.main-elements .element {
+	background-color: rgba(0,0,0,.15);
+	padding: 2em 1em; 
+	text-align: left;
+		border:1px solid #47567f;
+}
+
+.main-elements .element h3 {
+	color: #fff;
+	margin-bottom: 1em;
+	font-size: 1.3em;
+}
+
+.main-elements .element h3 span {
+	color: #818DAC
+}
+
+
+.main-elements .element ul {
+	margin: 0;
+	list-style-type: none;
+}
+
+
+.main-elements .element ul li {
+	color: #fff;
+	font-size: 1.2em: 
+}
+
+.main-elements .element img {
+	width: 7em;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+}
+
+
+/*============================================
+	About on home page
+=============================================*/
+
+.about {
+	background-color: #303E73;
+	padding: 3em 0;
+}
+
+
+.about  article {
+	margin-top: 1em;
+}
+
+.about h2 {
+	color: #fff;
+}
+
+.about p {
+	color: #b9c5f3;
+	line-height: 2em
+}
+
+.about img {
+	width: 15em;
+}
+
+/*============================================
+	Footer
+=============================================*/
+
+footer {
+	padding: 1em 0;
+	background-color: #29376a;
+}
+
+footer h5 {
+	margin: 0;
+	color: #818DAC;
+}
+
+
+/*============================================
+	Page content general
+=============================================*/
+
+.page-content article {
+	padding: 1em;
+	background-color: rgba(41,55,106,.1);
+}
+
+.page-content h1 {
+	color: #fff;
+}
+
+.page-content p {
+	color: #929aba;
+}
+
+
+/*============================================
+	Sidebar Form
+=============================================*/
+.sidebar-form {
+	background-color: rgba(41,55,106,.8);
+	padding: 1em 1em 1em 1em;
+}
+
+.sidebar-form h2 {
+	color: #929aba;
+}
+
+.sidebar-form form {
+	margin-bottom: .5em;
+}
+
+.sidebar-form form label {
+	color: #929aba;
+	margin-bottom: .5em;
+}
+
+.sidebar-form form label input {
+	background-color: #4e5f9f;
+	border: none;
+	color: #fff;
+}
+
+.sidebar-form p {
+	margin: 0;
+}
+
+
+.sidebar-form p a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*============================================
+	About Page Specific Styles
+=============================================*/
+.about-page {
+	
+}
+
