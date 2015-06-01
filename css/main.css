@@ -324,8 +324,41 @@ footer h5 {
 	margin: 0;
 }
 
-
 .signup-page .element p a {
 	color: #fff;
 	text-decoration: none;
+}
+
+
+/*============================================
+	Courses Specific Styles
+=============================================*/
+.courses-page .element {
+	position: relative;
+	overflow: hidden;
+
+	-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+
+margin-bottom: 2em;
+}
+
+.courses-page .element:hover .details {
+	background-color: #fff;
+}
+
+.courses-page .element .details {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(255,255,255,.75);
+	width: 100%;
+	padding: .5em;
+}
+
+
+.courses-page .element .details h2 {
+	margin: 0;
+	font-size: 1.3em;
 }
