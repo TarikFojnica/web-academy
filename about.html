@@ -10,7 +10,7 @@
      <link rel="stylesheet" href="css/main.css" />
 
     <script src="http:/cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-    <script src="js/kube.min.js"></script>
+    <script src="js/kube.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
@@ -18,28 +18,56 @@
 <body>
     <div class="main">
     	<header>
-	    	<div class="units-container">
-	    		<div class="units-row">
-	    			<div class="unit-30 logo">
-	    				<a href="index.html"><img src="images/logo.png"></a>
-	    			</div>
+            <div class="units-container">
+                <div class="units-row">
+                    <div class="unit-30 logo">
+                        <a href="index.html"><img src="images/logo.png"></a>
+                    </div>
 
-	    			<div class="unit-70 nav-container">
-	    				<nav class="navbar navbar-right">
-						    <ul>
-						        <li><a href="index.html">Home</a></li>
-                                <li><a href="courses.html">Courses</a></li>
-	    						<li><a href="about.html">About</a></li>
-	    						<li><a href="contact.html">Contact</a></li>
-                                <li><a href="login.html">Login</a></li>
-                                <li class="focus"><a href="signup.html">Sign Up</a></li>
-	    						
-						    </ul>
-						</nav>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </header>
+                    <div class="unit-40">
+                         <div class="nav-container">
+                            <nav class="navbar">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="unit-30 nav-container">
+                        <nav class="navbar navbar-right">
+                           <ul>
+                               
+                                <li class="focus"><a data-tools="dropdown" data-target="#login-menu">Login</a>
+                                    <div id="login-menu">
+                                        <div class="login-menu-element">
+                                            <form method="post" action="" class="forms">
+
+                                                <label>
+                                                    Email <span class="req"></span>
+                                                    <input type="email" name="user-email" class="width-100"  />
+                                                </label>
+
+                                                <label>
+                                                    Password <span class="req"></span>
+                                                    <input type="password" name="user-passowrd" class="width-100"  />
+                                                </label>
+
+                                                 <input type="submit" class="btn btn-blue" value="Login" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="focus"><a href="signup.html">Start Learning</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
 
     	<div class="about-page">
             <div class="page-content">
@@ -58,6 +86,14 @@
                                 <p>Vivamus vel erat sollicitudin, finibus massa vel, luctus dolor. Phasellus in est elit. Duis quis leo at sem placerat aliquet at aliquam odio. Vestibulum in pretium libero, sit amet iaculis mauris. Curabitur non tellus tempus, sodales lacus in, blandit nibh. Nulla volutpat tortor eget ipsum tempor tempus. Aenean quis vehicula neque, commodo feugiat erat.</p>
 
                                 <p>Nulla tincidunt tempor ligula, eget mollis neque ornare sit amet. Vivamus in suscipit libero, et dapibus diam. Etiam id turpis magna. Pellentesque sodales libero quis nunc molestie lacinia. Duis nec scelerisque dui. Pellentesque scelerisque odio nunc. Mauris pulvinar urna eu ex dignissim, sit amet accumsan erat bibendum. Praesent sed diam posuere, gravida nulla non, dapibus mi. Aenean posuere libero quis porttitor bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus fringilla justo non ligula maximus, a vestibulum ipsum congue. Etiam dui lectus, tristique sit amet venenatis sed, egestas auctor quam. In ultricies lectus leo, sed pretium nibh viverra sed. Donec tristique nisl diam, id cursus risus dictum in. Phasellus ac tempor sem. Nullam ac lectus eget nunc eleifend ultrices nec sed metus.</p>
+
+                                <address>
+                                    <strong>HashingSpace Corporation</strong><br>
+                                    5042 Wilshire Blvd #26900 <br>
+                                    Los Angeles, CA, 90036<br>
+                                    Main: 844-HASHING <br>
+                                    Fax: 877.482.9585
+                                </address>
                             </article>
                         </div>
 
@@ -103,5 +139,6 @@
     		</div>
     	</div>
     </footer>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

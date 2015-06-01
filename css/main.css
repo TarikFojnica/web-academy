@@ -74,6 +74,34 @@ header nav.navbar ul li.focus a {
 	color: #fff;
 }
 
+header nav.navbar ul li.focus a:hover {
+	cursor: pointer;
+}
+
+header #login-menu {
+	background-color: rgba();
+	width: 300px;
+	background-color: rgba(255,255,255,.9);
+	z-index: 100;
+}
+
+header #login-menu .login-menu-element {
+	padding: 1em;
+}
+
+header #login-menu .login-menu-element form {
+	margin: 0;
+}
+
+header #login-menu .login-menu-element form input {
+	padding: .4em;
+}
+
+header #login-menu .login-menu-element form .btn {
+	display: block;
+	width: 100%;
+}
+
 /*============================================
 	Main Content
 =============================================*/
@@ -209,6 +237,13 @@ footer h5 {
 	color: #929aba;
 }
 
+.page-content address {
+	color: #929aba;
+	font-weight: 300;
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
 
 /*============================================
 	Sidebar Form
@@ -255,3 +290,6 @@ footer h5 {
 	
 }
 
+/*============================================
+	Contact Page Specific Styles
+=============================================*/

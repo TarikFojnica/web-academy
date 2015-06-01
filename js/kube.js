@@ -981,10 +981,11 @@
 			this.setCallback('opened', this.$dropdown, this.$element);
 
 		},
+		//pomjeranje
 		preventBodyScroll: function()
 		{
-			this.$dropdown.on('mouseover', function() { $('html').css('overflow', 'hidden'); });
-			this.$dropdown.on('mouseout', function() { $('html').css('overflow', ''); });
+			//this.$dropdown.on('mouseover', function() { $('html').css('overflow', 'hidden'); });
+			//this.$dropdown.on('mouseout', function() { $('html').css('overflow', ''); });
 		},
 		hide: function(e)
 		{
