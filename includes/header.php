@@ -21,7 +21,7 @@
 	    	<div class="units-container">
 	    		<div class="units-row">
 	    			<div class="unit-30 logo">
-	    				<a href="index.html"><img src="images/logo.png"></a>
+	    				<a href="index.php"><img src="images/logo.png"></a>
 	    			</div>
 
                     <div class="unit-40">
@@ -31,7 +31,6 @@
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="courses.php">Courses</a></li>
                                     <li><a href="about.php">About</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -44,16 +43,16 @@
                                 <li class="focus"><a data-tools="dropdown" data-target="#login-menu">Login</a>
                                     <div id="login-menu">
                                         <div class="login-menu-element">
-                                            <form method="post" action="" class="forms">
+                                            <form method="post" action="user-login.php" class="forms">
 
                                                 <label>
                                                     Email <span class="req"></span>
-                                                    <input type="email" name="user-email" class="width-100"  />
+                                                    <input type="email" name="email" class="width-100"  />
                                                 </label>
 
                                                 <label>
-                                                    Password <span class="req"></span>
-                                                    <input type="password" name="user-passowrd" class="width-100"  />
+                                                    Name <span class="req"></span>
+                                                    <input type="text" name="name" class="width-100"  />
                                                 </label>
 
                                                  <input type="submit" class="btn btn-blue" value="Login" />
@@ -61,7 +60,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="focus"><a href="signup.html">Start Learning</a></li>
+                                <li class="focus"><a href="signup.php">Start Learning</a></li>
                                 
                             </ul>
 						</nav>
