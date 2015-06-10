@@ -1,8 +1,7 @@
 <?php 
 session_start();
 
-define('USERNAME', 'tarik');
-define('PASSWORD', '123');
+
 
 	if ( $_SERVER ['REQUEST_METHOD'] == 'POST') {
 		$username = $_POST['username'];
@@ -13,6 +12,10 @@ define('PASSWORD', '123');
 			
 			$_SESSION ['username'] = $username;
 			header("Location: secret.php");
+		}
+
+		else {
+			echo "Wrong username or password. Please try again";
 		}
 
 
