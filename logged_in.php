@@ -1,18 +1,15 @@
-<?php include 'includes/header.php';?>
-
-<?php 
-   if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
-        $email = $_POST ['email'];
-        $name  = $_POST ['name'];
-
-   } 
+<?php
+session_start();
+include_once 'includes/dbconnect.php';
 ?>
+
+<?php include 'includes/header.php';?>
 
     	<div class="about-page">
             <div class="page-content">
                 <div class="units-container">
                     <div class="units-row">
-                        <h1>Welcome <?php echo $name;?>, you're succesfully signed in.</h1>  
+                        <h1>Welcome <?php echo $userRow['username']; ?>, you're succesfully signed in.</h1>  
                     </div>
                 </div>
             </div>

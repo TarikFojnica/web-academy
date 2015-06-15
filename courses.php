@@ -1,7 +1,18 @@
+<?php
+session_start();
+include_once 'includes/dbconnect.php';
+
+if(!isset($_SESSION['user']))
+{
+	header("Location: login.php");
+}
+$res=mysql_query("SELECT * FROM users WHERE user_id=".$_SESSION['user']);
+$userRow=mysql_fetch_array($res);
+?>
 <?php include 'includes/header.php';?>
 
 
-    	<div class="courses-page">
+        <div class="courses-page">
             <div class="page-content">
                 <div class="units-container">
                 <h1>Courses</h1>

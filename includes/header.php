@@ -24,7 +24,7 @@
 	    				<a href="index.php"><img src="images/logo.png"></a>
 	    			</div>
 
-                    <div class="unit-40">
+                    <div class="unit-30">
                          <div class="nav-container">
                             <nav class="navbar">
                                 <ul>
@@ -36,31 +36,21 @@
                         </div>
                     </div>
 
-	    			<div class="unit-30 nav-container">
+	    			<div class="unit-40 nav-container">
 	    				<nav class="navbar navbar-right">
 						   <ul>
-                               
-                                <li class="focus"><a data-tools="dropdown" data-target="#login-menu">Login</a>
-                                    <div id="login-menu">
-                                        <div class="login-menu-element">
-                                            <form method="post" action="user-login.php" class="forms">
+                                <li class="focus"><a href="register.php">Start Learning</a></li>
+                                
 
-                                                <label>
-                                                    Email <span class="req"></span>
-                                                    <input type="email" name="email" class="width-100"  />
-                                                </label>
+                                <?php
+                                    if(isset($_SESSION['user'])) {
+                                       echo '<li class="focus"><a href="logout.php?logout">Sign Out</a></li>';
+                                    }
 
-                                                <label>
-                                                    Name <span class="req"></span>
-                                                    <input type="text" name="name" class="width-100"  />
-                                                </label>
-
-                                                 <input type="submit" class="btn btn-blue" value="Login" />
-                                            </form>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="focus"><a href="signup.php">Start Learning</a></li>
+                                    else {
+                                        echo ' <li class="focus"><a href="login.php">Login</a> </li>';
+                                    }
+                                ?>
                                 
                             </ul>
 						</nav>

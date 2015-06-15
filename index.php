@@ -1,3 +1,8 @@
+<?php
+session_start();
+include_once 'includes/dbconnect.php';
+?>
+
         <?php include 'includes/header.php';?>
     	<div class="units-container">
     		<div class="units-row">
@@ -5,7 +10,7 @@
 	    			<div class="main-content">
 		    			<h2>One and Only Web Development School You'll Ever Need.<br /> Sign up Today and Get 15-day trial.</h2>
 		    			<p>Maecenas sollicitudin semper purus, volutpat pellentesque arcu tincidunt tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla mattis ipsum eu accumsan elementum. Integer ante velit, convallis ac pellentesque vel, hendrerit eu odio</p>
-		    			<a href="#" class="btn">Sign Up Now</a>
+		    			<a href="register.php" class="btn">Sign Up Now</a>
 		    		</div>
 	    		</div><!-- unit 80-->
 	    	</div><!--units row-->

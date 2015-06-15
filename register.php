@@ -1,6 +1,33 @@
+<?php
+session_start();
+if(isset($_SESSION['user'])!="")
+{
+    header("Location: courses.php");
+}
+include_once 'includes/dbconnect.php';
+
+if(isset($_POST['btn-signup']))
+{
+    $uname = mysql_real_escape_string($_POST['uname']);
+    $email = mysql_real_escape_string($_POST['email']);
+    $upass = md5(mysql_real_escape_string($_POST['pass']));
+    
+    if(mysql_query("INSERT INTO users(username,email,password) VALUES('$uname','$email','$upass')"))
+    {
+        ?>
+        <script>alert('Successfully registered ');</script>
+        <?php
+    }
+    else
+    {
+        ?>
+        <script>alert('Error while registering you...');</script>
+        <?php
+    }
+}
+?>
+
 <?php include 'includes/header.php';?>
-
-
     	<div class="signup-page">
             <div class="page-content">
                 <div class="units-container">
@@ -11,25 +38,20 @@
                                 <form method="post" action="" class="forms">
                                      <label>
                                         Your name <span class="req"></span>
-                                        <input type="text" name="user-name" class="width-100"  />
+                                        <input type="text" class="width-100" name="uname" placeholder="User Name" required />
                                     </label>
 
                                     <label>
                                         Email <span class="req"></span>
-                                        <input type="email" name="user-email" class="width-100"  />
+                                        <input type="email" class="width-100" name="email" placeholder="Your Email" required />
                                     </label>
 
                                     <label>
                                         Password <span class="req"></span>
-                                        <input type="password" name="user-passowrd" class="width-100"  />
+                                        <input type="password" class="width-100" name="pass" placeholder="Your Password" required />
                                     </label>
-
-                                    <label>
-                                        Confirm the password <span class="req"></span>
-                                        <input type="password" name="user-passowrd" class="width-100"  />
-                                    </label>
-
-                                     <input type="submit" class="btn" value="Register" />
+                                    
+                                     <button type="submit" class="btn" name="btn-signup">Sign Me Up</button>
                                 </form>
                                 <p>Already a member? <a href="#">Login</a></p>
                            </div>
