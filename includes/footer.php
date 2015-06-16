@@ -5,4 +5,16 @@
     		</div>
     	</div>
     </footer>
+
+	<script>
+		$('#video1').iLightBox();
+		$('#video2').iLightBox();
+		$('#video3').iLightBox();
+		$('#video4').iLightBox();
+		$('#video5').iLightBox();
+		$('#video6').iLightBox();
+		$('#video7').iLightBox();
+		$('#video8').iLightBox();
+		$('#video9').iLightBox();
+	</script>
 </html>

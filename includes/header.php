@@ -14,6 +14,12 @@
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
+    <script type="text/javascript" src="./src/js/jquery.requestAnimationFrame.js"></script>
+    <script type="text/javascript" src="./src/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="./src/js/ilightbox.packed.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./src/css/ilightbox.css"/>
+
 </head>
 <body>
     <div class="main">

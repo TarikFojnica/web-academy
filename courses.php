@@ -17,9 +17,15 @@ $userRow=mysql_fetch_array($res);
                 <div class="units-container">
                 <h1>Courses</h1>
                     <div class="units-row">
+
+
+
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                id="video1"
+                                data-type="iframe"
+                                data-options="width: 638, height: 360">
                                     <img src="images/course-1.jpg">
 
                                     <div class="details">
@@ -32,7 +38,11 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video2"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
+
                                     <img src="images/course-2.jpg">
 
                                     <div class="details">
@@ -46,7 +56,10 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video3"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-3.jpg">
 
                                     <div class="details">
@@ -63,7 +76,10 @@ $userRow=mysql_fetch_array($res);
                     <div class="units-row">
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video4"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-4.jpg">
 
                                     <div class="details">
@@ -76,7 +92,10 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video5"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-5.jpg">
 
                                     <div class="details">
@@ -89,7 +108,10 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video6"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-6.jpg">
 
                                     <div class="details">
@@ -105,7 +127,10 @@ $userRow=mysql_fetch_array($res);
                     <div class="units-row">
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video7"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-4.jpg">
 
                                     <div class="details">
@@ -118,7 +143,10 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video8"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-5.jpg">
 
                                     <div class="details">
@@ -131,7 +159,10 @@ $userRow=mysql_fetch_array($res);
 
                         <div class="unit-33">
                             <div class="element">
-                                <a href="course.html">
+                                <a href='https://www.youtube.com/embed/bfqBUDk99Tc?autoplay=1&autohide=1&border=0&egm=0&showinfo=0'
+                                    id="video9"
+                                    data-type="iframe"
+                                    data-options="width: 638, height: 360">
                                     <img src="images/course-6.jpg">
 
                                     <div class="details">
